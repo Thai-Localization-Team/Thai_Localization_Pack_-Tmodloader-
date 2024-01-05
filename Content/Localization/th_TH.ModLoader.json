@@ -1,11 +1,9 @@
 {
   "tModLoader": {
-    // Main Menu
     "PatreonSupport": "กรุณาสนับสนุนพวกเราได้ที่: ",
     "MenuModBrowser": "ดาวน์โหลดม็อด",
     "MenuMods": "จัดการม็อดที่มี",
     "MenuModSources": "การพัฒนาม็อด",
-    // Mods Menu
     "ModsModsList": "รายชื่อม็อด",
     "ModsEnableAll": "เปิดใช้ทั้งหมด",
     "ModsDisableAll": "ปิดใช้ทั้งหมด",
@@ -38,7 +36,6 @@
     "ModsXWalls": "ผนัง {0} ตัว",
     "ModsXBuffs": "บัฟ {0} ตัว",
     "ModsXMounts": "สัตว์ขี่ {0} ตัว",
-    // Mod Loading Errors
     "LoadError": "เกิดข้อผิดพลาดระหว่างการโหลด {0}",
     "LoadErrorRecipes": "เกิดข้อผิดพลาดระหว่างการเพิ่มสูตรให้กับ {0}",
     "LoadErrorDisabledSeeBelowForError": "ม็อดนี้ถูกปิดการใช้งานโดยอัตโนมัติ ดูข้อความแสดงจุดผิดพลาดด้านล่าง:",
@@ -71,18 +68,16 @@
     "LoadErrorCannotLoadCompressedEffects": "โหลดไฟล์เอฟเฟคแบบบีบอัดไม่สำเร็จ",
     "LoadErrorAddItemOnlyInLoad": "ฟังชัน AddItem ต้องเรียกใช้ใน Mod.Load หรือ Mod.Autoload เท่านั้น",
     "LoadError2ModItemSameName": "ม็อดที่จะเพิ่มเข้ามา มีชื่อซ้ำกัน: {0} ความเป็นไปได้ - ชื่อ class ซ้ำกันจากคนละ namespace, หรือมีการเรียก AddItem ที่ชื่อซ้ำกัน",
-    "LoadErrorResourceNotFoundPathHint": "ไม่พบ resource ที่ต้องการ:\n	{0}\n(ลองตรวจสอบชื่อและตำแหน่งโฟลเดอร์)\n	{1}",
+    "LoadErrorResourceNotFoundPathHint": "ไม่พบ resource ที่ต้องการ:\n    {0}\nคาดเดา: (ลองตรวจสอบชื่อและตำแหน่งโฟลเดอร์)\n	  {1}",
     "RuntimeErrorSilentlyCaughtException": "ไม่ต้องแสดงผล Exception: ",
     "RuntimeErrorSeeLogsTxtForFullTrace": "(ดูล็อกเต็มได้ใน Logs.txt)",
     "OpenLogs": "อ่านล็อก",
     "OpenWebHelp": "เปิดคู่มือบนเวบไซต์",
-    // Mod Info
     "ModInfoHeader": "ข้อมูลม็อด: ",
     "ModInfoVisitHomepage": "อ่านเพิ่มเติมที่โฮมเพจของม็อด",
     "ModInfoExtract": "Extract",
     "ModInfoNoDescriptionAvailable": "ไม่มีคำอธิบาย",
     "ModInfoProblemTryAgain": "เกิดข้อผิดพลาด กรุณาลองใหม่",
-    // Mod Packs
     "ModPacksHeader": "ม็อดแพก",
     "ModPacksSaveEnabledAsNewPack": "เซฟม็อดแพกใหม่",
     "ModPacksEnterModPackName": "ตั้งชื่อม็อดแพก",
@@ -99,7 +94,6 @@
     "ModPackLoadingSpecifiedModPack": "โหลดม็อดแพค : {0}",
     "ModPackDoesNotExist": "ไม่พบไฟล์ม็อดแพค {0}",
     "ModPackMalformed": "ไม่สามารถอ่านไฟล์ม็อดแพค {0} ได้ ไฟล์อาจไม่สมบูรณ์ ({1})",
-    // ModNet/Multiplayer
     "MPSyncingMods": "Syncing Mods",
     "MPServerModsCantDownload": "ม็อดต่อไปนี้ ติดตั้งไว้บนเซอร์เวอร์ แต่ไม่อาจดาวน์โหลดได้",
     "MPServerModsCantDownloadReasonSigned": "เพราะคุณตั้งรับเฉพาะม็อดที่ mod browser รับรองเท่านั้น",
@@ -109,7 +103,6 @@
     "MPErrorModNotSigned": "ม็อดนี้ไม่ได้รับการรับรองใน Mod Browser",
     "MPErrorModDownloadError": "เกิดข้อผิดพลาดระหว่างดาวน์โหลด {0}",
     "MPPacketTooLarge": "Packet ใหญ่เกินไป {0} > {1}",
-    // Mod Browser
     "MBDownload": "ดาวน์โหลด",
     "MBDownloadAll": "ดาวน์โหลดทั้งหมด",
     "MBDownloadingMod": "กำลังดาวน์โหลด: {0}",
@@ -155,7 +148,6 @@
     "XMonthsAgo": "{0} เดือนก่อน",
     "1YearAgo": "1 ปีก่อน",
     "XYearsAgo": "{0} ปีก่อน ",
-    // Mod Publishing
     "MBPublishEnterPassphrase": "กรุณาใส่ Passcode",
     "MBPublishVisitWebsiteForPassphrase": "กรุณาสร้าง Passphrase จากหน้าเวบไซต์",
     "MBPublishPastePassphrase": "Paste Passphrase (ctrl-v)",
@@ -165,7 +157,6 @@
     "EnterSteamID": "กรุณาใส่ SteamID",
     "PasteSteamID": "Paste SteamID (ctrl-v)",
     "MBServerResonponse": "ข้อความตอบจากเซอร์เวอร์ Mod Browser:\n\n{0}",
-    // TML Options
     "DownloadFromServersYes": "ดาวน์โหลดม็อดจากเซอร์เวอร์: เปิด",
     "DownloadFromServersNo": "ดาวน์โหลดม็อดจากเซอร์เวอร์: ปิด",
     "DownloadSignedYes": "ดาวน์โหลดม็อดที่เซอร์เวอร์รับรองเท่านั้น: ใช่",
@@ -185,7 +176,6 @@
     "EnableModsReminder": "ม็อดที่ดาวน์โหลดมาใหม่ยังไม่เปิดใช้งาน อย่าลืมเปิด",
     "DontShowAgain": "ไม่ต้องเตือนซ้ำอีก",
     "ModControls": "คอนโทรลม็อด",
-    // Player and World Select
     "MigratePlayersMessage": "คุณยังไม่มีผู้เล่น \n ถ้าอยากย้ายผู้เล่นจากเกมต้นแบบมา tModLoader\n กรุณาก็อปปี้ผู้เล่นเหล่านั้นจาก /Terraria/Players ไปยัง /Terraria/ModLoader/Players \n ไฟล์ที่ต้องก็อปปี้ ได้แก่ไฟล์ .plr และโฟลเดอร์ที่ชื่อคล้ายกัน \n คลิ๊กที่นี่เพื่อเปิดโฟลเดอร์ \n หลังจากก็อปปี้เสร็จแล้ว กด Back",
     "MigrateWorldsMessage": "คุณยังไม่มีโลก \n ถ้าอยากย้ายโลกจากเกมต้นแบบมา tModLoader \n กรุณาก็อปปี้โลกเหล่านั้นจาก  /Terraria/Worlds ไปยัง /Terraria/ModLoader/Worlds \n ไฟล์ที่ต้องก็อปปี้ ได้แก่ไฟล์ .wld \n คลิ๊กที่นี่เพื่อเปิดโฟลเดอร์ \n หลังจากก็อปปี้เสร็จแล้ว กด Back",
     "ModsDifferentSinceLastPlay": "ม็อดต่อไปนี้ มีการเปลี่ยนแปลงจากเมื่อคุณเข้าเล่นครั้งล่าสุด: ",
@@ -195,7 +185,6 @@
     "New1Mod": "มีม็อดใหม่ 1 ม็อด",
     "NewXMods": "มีม็อดใหม่ {0} ม็อด",
     "NewModsListing": "ม็อดใหม่:\n{0}",
-    // Mod Sources
     "MSBuild": "สร้าง",
     "MSBuildReload": "สร้าง + รีโหลด",
     "MSBuildAll": "สร้างทั้งหมด",
@@ -204,28 +193,22 @@
     "MSManagePublished": "จัดการม็อดสาธารณะ",
     "MSPublish": "เปิดสู่สาธารณะ",
     "MSModSourcesCantHaveSpaces": "(โฟลเดอร์ม็อด มีช่องว่างไม่ได้)",
-    // Extract Mod
     "ExtractErrorWhileExtractingMod": "เกิดข้อผิดพลาดระหว่างแตกไฟล์ {0}",
     "ExtractHideCodeMessage": "เจ้าของม็อด เซตไม่ให้แสดงโค้ด ใน tModLoader",
     "ExtractNoSourceCodeMessage": "เจ้าของม็อดไม่ได้แนบซอร์สโค้ดมากับตัวม็อด",
     "ExtractHideResourcesMessage": "เจ้าของม็อดตั้งค่าให้ซ่อนไฟล์ของตนเองใน tModLoader",
     "ExtractFileListing": "รายชื่อไฟล์:",
-    // Mod Commands
     "CommandModListDescription": "แสดงรายชื่อม็อดที่โหลดไว้",
     "CommandModListServerMods": "ม็อดสำหรับเซิฟเวอร์:",
     "CommandModListSyncedMods": "ม็อดที่ sync แล้วSynced Mods:",
     "CommandModListClientMods": "ม็อดฝั่งผู้เล่น:",
     "CommandModListModlist": "รายชื่อม็อด:",
-    // There should be ModName after ':'
     "MSReadingProperties": "กำลังอ่านคุณลักษณะ: ",
     "MSCompilingWindows": "Compiling {0} for Windows...",
     "MSCompilingMono": "Compiling {0} for Mono...",
-    // There should be ModName after ':'
     "MSBuilding": "กำลังสร้าง ",
     "MSFinding": "กำลังค้นหาม็อด...",
-    // There should be ModName after ':'
     "MSIntializing": "กำลังเริ่มต้น: ",
-    // There should be ModName after ':'
     "MSLoading": "กำลังโหลดม็อด: ",
     "MSFinishingResourceLoading": "กำลังโหลดม็อดให้เรียบร้อย",
     "MSCompatibilizing": "กำลังปรับม็อด: {0} ให้เข้ากันได้",
@@ -233,7 +216,6 @@
     "MSSettingUp": "กำลังติดตั้ง...",
     "MSAddingRecipes": "กำลังเพิ่มสูตรผสม...",
     "AddingModContent": "กำลังเพิ่มเนื้อหาม็อด...",
-    // Mod Loader Mod
     "StartBagTooltip": "ไอเท็มเริ่มต้นบางชิ้นล้นช่องเก็บของ",
     "StartBagItemName": "กระเป๋าเริ่มต้น",
     "UnloadedItemItemName": "ไอเท็มที่ไม่ได้บรรจุ",
@@ -242,11 +224,9 @@
     "AprilFoolsJoke": "มุกตลกเมษาหน้าโง่",
     "DefaultTownNPCName": "ตาสีตาสา",
     "DefaultTownNPCChat": "คนทำม็อดนี้ลืมให้บทพูดข้า",
-    // Extra mouse buttons
     "MouseMiddle": "เมาส์กลาง",
     "MouseXButton1": "เมาส์ 4",
     "MouseXButton2": "เมาส์ 5",
-    // Misc
     "OK": "ตกลง",
     "Continue": "ไปต่อ",
     "PatreonSetTooltip": "ขอบคุณที่สนับสนุนเรา!"
